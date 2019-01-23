@@ -7,7 +7,7 @@ class HomePage(BaseAction):
     create_meeting_btn = By.ID, "com.idcvideo.haokaihuidraw:id/activity_iv_createmeeting"
     join_meeting_btn = By.ID, "com.idcvideo.haokaihuidraw:id/activity_iv_joinmeeting"
     address_list_btn = By.ID, "com.idcvideo.haokaihuidraw:id/activity_iv_maillist"
-    setting_btn = By.ID, "com.idcvideo.haokaihuidraw:id/activity_iv_set"
+    setting_btn = By.ID, "com.idcvideo.haokaihuidraw:id/home_xuan_shi_setting_iv"
 
     def click_create_meeting_btn(self):
         self.click(self.create_meeting_btn)
